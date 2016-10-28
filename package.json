@@ -11,6 +11,10 @@
     "db-init": "./db-init.sh",
     "postinstall": "npm run db-init"
   },
+  "engines": {
+    "node": "6.6.0",
+    "npm": "3.10.3"
+  }
   "dependencies": {
     "angular": "1.5.0",
     "angular-messages": "1.5.0",
