@@ -7,5 +7,5 @@
  */
 
 module.exports = {
-  DATABASE_URI: process.env.POSTGRESQL_URL
+  DATABASE_URI: process.env.DATABASE_URI
 };
